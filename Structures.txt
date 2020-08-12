@@ -1,0 +1,4 @@
+Array         Linked list        Stack            Queue
+1)Random      Sequential      Sequential(LIFO)      Sequential(FIFO)
+2)Static      Dynamic             Dynamic           Dynamic
+3

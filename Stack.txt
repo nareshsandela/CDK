@@ -1,0 +1,25 @@
+Public class Stack
+{
+        int top;
+        int top =-1;
+	int[] array;
+
+     {
+  void push (int data)
+       {
+        this.stack=data;
+       }
+  void pop(int data) 
+       {
+      this.top--;
+        }
+	
+   boolean isEmpty
+        {
+      if (this.top == -1)
+          return true;
+      else
+          return false;
+}
+	
+}

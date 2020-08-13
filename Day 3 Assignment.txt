@@ -1,0 +1,13 @@
+Stack methods
+    Top - points to upper or top most element
+    push- add element by pre increament
+    pop - remove element by post decreement
+    isEmpty - checked by using top 
+Binary Tree
+    It uses Nodes for allocation of the data in a dynamic way.It is a heiarchical structure
+Linked List
+    It consist of nodes to save data
+
+Queue
+  Enqueue - push an element
+   Dequeuq - pull an element

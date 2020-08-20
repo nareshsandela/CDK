@@ -1,0 +1,24 @@
+create table details (
+personid number(4,0) primary key,
+personname varchar2(10),
+city varchar2(10),
+state varchar2(10),
+bdate date,
+aadhar number(16) unique,
+pan varchar2(10) unique
+);
+
+insert into details values (121,'amaresh','hyd','telangana',Date '1999-06-07',546567526712,'MCVSJDGGH');
+insert into details values (221,'gnanesh,'vizag','ap',Date '1994-03-09',54656752445712,'MCVSG6DJSH');
+insert into details values (321,'suresh','guntur','maharsthra',Date '03-02-1998',546237526712,'MCVSXSG6GGH');
+insert into details values (421,'naresh','adilabad','mp',Date '01-05-1998',546567656642,'MCVSG6GCSGH');
+insert into details values (521,'ramesh','jagityal','up',01-08-1998',546562326712,'MCVSG6GSDGH');
+insert into details values (621,'yogesh','nalgonda','hp',04-02-1998',546347526712,'MCVSG6GGAH');
+insert into details values (721,'sarvesh','bhongir','goa',Date '06-02-1998',545367526712,'MCVSG6GGDH');
+insert into details values (821,'lokesh,'tirupati','goa',Date '01-09-1998',546537526712,'MCVSG6GGDSH');
+
+update details set personname='amaresh',city='nagole',state='mp',Bdate=Date '2002-01-23',aadhar=644335456123,pan='Fa47dyf78' where personid=121;
+
+update person set state='mp' where city='kurnool';
+
+delete from person where city='goa';
